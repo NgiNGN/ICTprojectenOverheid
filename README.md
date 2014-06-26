@@ -1,0 +1,3 @@
+ICTprojectenOverheid
+====================
+Politiek geinteresseerden onder ons weten dat de Tweede Kamer een tijdelijke commisie ICT heeft ingestel d om te onderzoeken waarom zo veel ICT projecten falen. De grootste onafhankelijke beroepsverenining NGI-NGN heeft daarom via Linkedin een disucssie gestart wat volgens de beroepsbeoefenaren (onze leden) in de praktijk de reden(en) kunnen zijn van de vaak majeure budjetoverschrijdingen, niet gehaalde deadlines en uiteindelijk niet werkende systemen bij de overheid. Uit de discussie is een wellicht voor veel ICT-ers bijzondere oplossing gekomen. Graag willen wij in discussie komen met het publiek om het voorstel bij te schafen en te ondersteunen. 
