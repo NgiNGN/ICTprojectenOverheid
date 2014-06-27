@@ -1,0 +1,83 @@
+digraph{
+  1[label="low IT knowledge level in 2nd chamber"];
+  2[label="budget pressure"];
+  3[label="limited number of suppliers"];
+  4[label="european procurements rules"];
+  5[label="earlier experience needed"];
+  6[label="low IT knowledge level of civil servants"];
+  7[label="incomplete rfp"];
+  1 -> 7;
+  2 -> 7;
+  6 -> 7;
+  8[label="no real discussion with suppliers"];
+  9[label="cost dominates choice"];
+  4 -> 8;
+  6 -> 9;
+  8 -> 9;
+  5 -> 3;
+  9 -> 3;
+  10[label="integrations missing"];
+  11[label="other suppliers get involved"];
+  7 -> 10;
+  10 -> 11;
+  12[label="multiple opinions"];
+  11 -> 12;
+  13[label="analysis paralysis"];
+  12 -> 13;
+  6 -> 13;
+  14[label="project grows"];
+  13-> 14;
+  15[label="project runs out of time"];
+  14-> 15;
+  16[label="supplier has IT knowledge"];
+  17[label="public question round"];
+  4 -> 17;
+  18[label="supplier finds gaps to make profit"];
+  16 -> 18;
+  7 -> 18;
+  19[label="supplier offers below real price"];
+  20[label="lowest price wins"];
+  21[label="supplier builds exactly as specified"];
+  18 -> 19;
+  19 -> 20;
+  20 -> 21;
+  22[label="system doesn't work"]
+  21 -> 22;
+  22 -> 11;
+  23[label="requirement changes"];
+  15 -> 23;
+  9 -> 20;
+  24[label="rfp is expensive, not paid"];
+  4 -> 24;
+  24 -> 3;
+  25[label="supplier doesn't want to inform competition"];
+  17 -> 25;
+  25 -> 7;
+  26[label="supplier needs large legal department"];
+  22 -> 26;
+  26 -> 3;
+  27[label="costs grow"];
+  23 -> 27;
+  3 -> 27;
+  27 -> 2;
+  28[label="outsource"];
+  2 -> 28;
+  28 -> 6;
+  29[label="IT salaries are low"];
+  29 -> 6;
+  2 -> 29;
+  30[label="IT job is not attractive"];
+  29 -> 30;
+  22 -> 30;
+  30 -> 6;
+  31[label="focus on efficiency"];
+  1 -> 31;
+  32[label="centralize"]
+  31 -> 32;
+  32 -> 14;
+  31 -> 28;
+  28 -> 30;
+  33[label="build easy things first"]
+  34[label="sugardaddy"]
+  35[label="risk is dealt with by external parties"]
+}
